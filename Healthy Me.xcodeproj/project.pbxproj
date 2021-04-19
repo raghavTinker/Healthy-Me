@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A017645E20F08E40002EE6B6 /* FluidLogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A017645D20F08E40002EE6B6 /* FluidLogs.swift */; };
+		A045E65520E7CE08000F5507 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A045E65420E7CE08000F5507 /* AppDelegate.swift */; };
+		A045E65C20E7CE12000F5507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A045E65B20E7CE12000F5507 /* Assets.xcassets */; };
+		A045E65F20E7CE12000F5507 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A045E65D20E7CE12000F5507 /* LaunchScreen.storyboard */; };
+		A045E66720E7CE90000F5507 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A045E66620E7CE90000F5507 /* WelcomeVC.swift */; };
+		A045E66B20E7E1F2000F5507 /* WeightGraphVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A045E66A20E7E1F2000F5507 /* WeightGraphVC.swift */; };
+		A045E66D20E7E21B000F5507 /* FoodEntryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A045E66C20E7E21B000F5507 /* FoodEntryVC.swift */; };
+		A045E67320E7EA77000F5507 /* BasicFunctionality.swift in Sources */ = {isa = PBXBuildFile; fileRef = A045E67220E7EA77000F5507 /* BasicFunctionality.swift */; };
+		A045E67520E7EB05000F5507 /* HealthData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A045E67420E7EB05000F5507 /* HealthData.swift */; };
+		A05D07BC20F4BC6B00316322 /* FluidEntryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05D07BB20F4BC6B00316322 /* FluidEntryVC.swift */; };
+		A05D07BE20F525A100316322 /* FluidDateTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05D07BD20F525A100316322 /* FluidDateTableVC.swift */; };
+		A05D07C020F5264500316322 /* FluidLogsInTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05D07BF20F5264500316322 /* FluidLogsInTableVC.swift */; };
+		A07665A020EA03EC00C51E35 /* FoodLogDateTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A076659F20EA03EC00C51E35 /* FoodLogDateTableVC.swift */; };
+		A07665A220EA063A00C51E35 /* LogsInDateTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07665A120EA063A00C51E35 /* LogsInDateTableVC.swift */; };
+		A07665A420EA157100C51E35 /* FoodInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07665A320EA157100C51E35 /* FoodInfoVC.swift */; };
+		A090CA6020F92E4200B00640 /* WelcomeVCRevamped.swift in Sources */ = {isa = PBXBuildFile; fileRef = A090CA5F20F92E4200B00640 /* WelcomeVCRevamped.swift */; };
+		A0B323D020F7B61200B93885 /* FluidInfoVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B323CF20F7B61200B93885 /* FluidInfoVCViewController.swift */; };
+		A0BEB45820E90B0600A3FA0A /* MonthGraphVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BEB45720E90B0600A3FA0A /* MonthGraphVC.swift */; };
+		A0BEB45A20E93CC300A3FA0A /* WeightYearVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BEB45920E93CC300A3FA0A /* WeightYearVC.swift */; };
+		A0BEB46020E943C000A3FA0A /* FoodLogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BEB45F20E943C000A3FA0A /* FoodLogs.swift */; };
+		F7FE624B15EEB149950BEE5B /* Pods_Healthy_Me.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DCF0C0B782A33DD17DE5127 /* Pods_Healthy_Me.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FC51CF0AC02C1AE624D8794 /* Pods-Healthy Me.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Healthy Me.release.xcconfig"; path = "Pods/Target Support Files/Pods-Healthy Me/Pods-Healthy Me.release.xcconfig"; sourceTree = "<group>"; };
+		7DCF0C0B782A33DD17DE5127 /* Pods_Healthy_Me.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Healthy_Me.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A017645D20F08E40002EE6B6 /* FluidLogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluidLogs.swift; sourceTree = "<group>"; };
+		A045E65120E7CE08000F5507 /* Healthy Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Healthy Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A045E65420E7CE08000F5507 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A045E65B20E7CE12000F5507 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A045E65E20E7CE12000F5507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A045E66020E7CE13000F5507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A045E66620E7CE90000F5507 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		A045E66A20E7E1F2000F5507 /* WeightGraphVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightGraphVC.swift; sourceTree = "<group>"; };
+		A045E66C20E7E21B000F5507 /* FoodEntryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodEntryVC.swift; sourceTree = "<group>"; };
+		A045E67220E7EA77000F5507 /* BasicFunctionality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicFunctionality.swift; sourceTree = "<group>"; };
+		A045E67420E7EB05000F5507 /* HealthData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthData.swift; sourceTree = "<group>"; };
+		A05D07BB20F4BC6B00316322 /* FluidEntryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluidEntryVC.swift; sourceTree = "<group>"; };
+		A05D07BD20F525A100316322 /* FluidDateTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluidDateTableVC.swift; sourceTree = "<group>"; };
+		A05D07BF20F5264500316322 /* FluidLogsInTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluidLogsInTableVC.swift; sourceTree = "<group>"; };
+		A076659F20EA03EC00C51E35 /* FoodLogDateTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodLogDateTableVC.swift; sourceTree = "<group>"; };
+		A07665A120EA063A00C51E35 /* LogsInDateTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogsInDateTableVC.swift; sourceTree = "<group>"; };
+		A07665A320EA157100C51E35 /* FoodInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodInfoVC.swift; sourceTree = "<group>"; };
+		A090CA5F20F92E4200B00640 /* WelcomeVCRevamped.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVCRevamped.swift; sourceTree = "<group>"; };
+		A0B323CF20F7B61200B93885 /* FluidInfoVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluidInfoVCViewController.swift; sourceTree = "<group>"; };
+		A0BEB45720E90B0600A3FA0A /* MonthGraphVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthGraphVC.swift; sourceTree = "<group>"; };
+		A0BEB45920E93CC300A3FA0A /* WeightYearVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightYearVC.swift; sourceTree = "<group>"; };
+		A0BEB45F20E943C000A3FA0A /* FoodLogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodLogs.swift; sourceTree = "<group>"; };
+		B51B538E33D8065E1FEF5EA7 /* Pods-Healthy Me.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Healthy Me.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Healthy Me/Pods-Healthy Me.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A045E64E20E7CE08000F5507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7FE624B15EEB149950BEE5B /* Pods_Healthy_Me.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A045E64820E7CE07000F5507 = {
+			isa = PBXGroup;
+			children = (
+				A045E65320E7CE08000F5507 /* Healthy Me */,
+				A045E65220E7CE08000F5507 /* Products */,
+				C87999EE12BBAF341140D55E /* Pods */,
+				F3929426775567E62167AA29 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A045E65220E7CE08000F5507 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A045E65120E7CE08000F5507 /* Healthy Me.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A045E65320E7CE08000F5507 /* Healthy Me */ = {
+			isa = PBXGroup;
+			children = (
+				A045E65420E7CE08000F5507 /* AppDelegate.swift */,
+				A045E67220E7EA77000F5507 /* BasicFunctionality.swift */,
+				A045E67420E7EB05000F5507 /* HealthData.swift */,
+				A0BEB45F20E943C000A3FA0A /* FoodLogs.swift */,
+				A017645D20F08E40002EE6B6 /* FluidLogs.swift */,
+				A045E66620E7CE90000F5507 /* WelcomeVC.swift */,
+				A090CA5F20F92E4200B00640 /* WelcomeVCRevamped.swift */,
+				A045E66A20E7E1F2000F5507 /* WeightGraphVC.swift */,
+				A0BEB45720E90B0600A3FA0A /* MonthGraphVC.swift */,
+				A0BEB45920E93CC300A3FA0A /* WeightYearVC.swift */,
+				A045E66C20E7E21B000F5507 /* FoodEntryVC.swift */,
+				A05D07BB20F4BC6B00316322 /* FluidEntryVC.swift */,
+				A076659F20EA03EC00C51E35 /* FoodLogDateTableVC.swift */,
+				A07665A120EA063A00C51E35 /* LogsInDateTableVC.swift */,
+				A07665A320EA157100C51E35 /* FoodInfoVC.swift */,
+				A05D07BD20F525A100316322 /* FluidDateTableVC.swift */,
+				A05D07BF20F5264500316322 /* FluidLogsInTableVC.swift */,
+				A0B323CF20F7B61200B93885 /* FluidInfoVCViewController.swift */,
+				A045E65B20E7CE12000F5507 /* Assets.xcassets */,
+				A045E65D20E7CE12000F5507 /* LaunchScreen.storyboard */,
+				A045E66020E7CE13000F5507 /* Info.plist */,
+			);
+			path = "Healthy Me";
+			sourceTree = "<group>";
+		};
+		C87999EE12BBAF341140D55E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B51B538E33D8065E1FEF5EA7 /* Pods-Healthy Me.debug.xcconfig */,
+				2FC51CF0AC02C1AE624D8794 /* Pods-Healthy Me.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F3929426775567E62167AA29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DCF0C0B782A33DD17DE5127 /* Pods_Healthy_Me.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A045E65020E7CE08000F5507 /* Healthy Me */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A045E66320E7CE13000F5507 /* Build configuration list for PBXNativeTarget "Healthy Me" */;
+			buildPhases = (
+				F56E9C4C5D1D0BF4D253D7A6 /* [CP] Check Pods Manifest.lock */,
+				A045E64D20E7CE08000F5507 /* Sources */,
+				A045E64E20E7CE08000F5507 /* Frameworks */,
+				A045E64F20E7CE08000F5507 /* Resources */,
+				836BFCF658F1CF5B6E498C08 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Healthy Me";
+			productName = "Healthy Me";
+			productReference = A045E65120E7CE08000F5507 /* Healthy Me.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A045E64920E7CE07000F5507 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Raghav Sharma";
+				TargetAttributes = {
+					A045E65020E7CE08000F5507 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = A045E64C20E7CE07000F5507 /* Build configuration list for PBXProject "Healthy Me" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A045E64820E7CE07000F5507;
+			productRefGroup = A045E65220E7CE08000F5507 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A045E65020E7CE08000F5507 /* Healthy Me */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A045E64F20E7CE08000F5507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A045E65F20E7CE12000F5507 /* LaunchScreen.storyboard in Resources */,
+				A045E65C20E7CE12000F5507 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		836BFCF658F1CF5B6E498C08 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Healthy Me/Pods-Healthy Me-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftChart/SwiftChart.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftChart.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Healthy Me/Pods-Healthy Me-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F56E9C4C5D1D0BF4D253D7A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Healthy Me-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A045E64D20E7CE08000F5507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A07665A420EA157100C51E35 /* FoodInfoVC.swift in Sources */,
+				A07665A220EA063A00C51E35 /* LogsInDateTableVC.swift in Sources */,
+				A045E66D20E7E21B000F5507 /* FoodEntryVC.swift in Sources */,
+				A045E67520E7EB05000F5507 /* HealthData.swift in Sources */,
+				A05D07C020F5264500316322 /* FluidLogsInTableVC.swift in Sources */,
+				A045E65520E7CE08000F5507 /* AppDelegate.swift in Sources */,
+				A017645E20F08E40002EE6B6 /* FluidLogs.swift in Sources */,
+				A05D07BC20F4BC6B00316322 /* FluidEntryVC.swift in Sources */,
+				A045E66B20E7E1F2000F5507 /* WeightGraphVC.swift in Sources */,
+				A090CA6020F92E4200B00640 /* WelcomeVCRevamped.swift in Sources */,
+				A0B323D020F7B61200B93885 /* FluidInfoVCViewController.swift in Sources */,
+				A07665A020EA03EC00C51E35 /* FoodLogDateTableVC.swift in Sources */,
+				A05D07BE20F525A100316322 /* FluidDateTableVC.swift in Sources */,
+				A0BEB45A20E93CC300A3FA0A /* WeightYearVC.swift in Sources */,
+				A0BEB46020E943C000A3FA0A /* FoodLogs.swift in Sources */,
+				A045E67320E7EA77000F5507 /* BasicFunctionality.swift in Sources */,
+				A0BEB45820E90B0600A3FA0A /* MonthGraphVC.swift in Sources */,
+				A045E66720E7CE90000F5507 /* WelcomeVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A045E65D20E7CE12000F5507 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A045E65E20E7CE12000F5507 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A045E66120E7CE13000F5507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A045E66220E7CE13000F5507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A045E66420E7CE13000F5507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B51B538E33D8065E1FEF5EA7 /* Pods-Healthy Me.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GDMQFE6Q4Z;
+				INFOPLIST_FILE = "Healthy Me/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.raghav.ExpenditureTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A045E66520E7CE13000F5507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FC51CF0AC02C1AE624D8794 /* Pods-Healthy Me.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GDMQFE6Q4Z;
+				INFOPLIST_FILE = "Healthy Me/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.raghav.ExpenditureTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A045E64C20E7CE07000F5507 /* Build configuration list for PBXProject "Healthy Me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A045E66120E7CE13000F5507 /* Debug */,
+				A045E66220E7CE13000F5507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A045E66320E7CE13000F5507 /* Build configuration list for PBXNativeTarget "Healthy Me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A045E66420E7CE13000F5507 /* Debug */,
+				A045E66520E7CE13000F5507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A045E64920E7CE07000F5507 /* Project object */;
+}
